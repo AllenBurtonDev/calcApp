@@ -8,6 +8,7 @@ public:
 	~calcMain();
 
 public:
+	
 	wxButton* m_btn1 = nullptr;
 	wxButton* m_btn2 = nullptr;
 	wxButton* m_btn3 = nullptr;

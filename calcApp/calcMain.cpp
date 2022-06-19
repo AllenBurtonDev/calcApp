@@ -49,6 +49,7 @@ calcMain::calcMain() : wxFrame(nullptr, wxID_ANY, "Allen's Calculator App", wxPo
 	m_txt1 = new wxTextCtrl(this, wxID_ANY, "", wxPoint(10, 10), wxSize(290, 50));
 }
 
+
 calcMain::~calcMain()
 {
 
@@ -68,7 +69,7 @@ void calcMain::OnBinClicked(wxCommandEvent& evt)
 }
 void calcMain::OnHexClicked(wxCommandEvent& evt)
 {
-
+	
 }
 void calcMain::On7Clicked(wxCommandEvent& evt)
 {
