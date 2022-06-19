@@ -29,6 +29,30 @@ public:
 	wxButton* m_btn19 = nullptr;
 	wxButton* m_btn20 = nullptr;
 
-	wxListBox* m_list1 = nullptr;
+	wxTextCtrl* m_txt1 = nullptr;
+
+	void OnClearClicked(wxCommandEvent& evt);
+	void OnModClicked(wxCommandEvent& evt);
+	void OnBinClicked(wxCommandEvent& evt);
+	void OnHexClicked(wxCommandEvent& evt);
+	void On7Clicked(wxCommandEvent& evt);
+	void On8Clicked(wxCommandEvent& evt);
+	void On9Clicked(wxCommandEvent& evt);
+	void OnDivClicked(wxCommandEvent& evt);
+	void On4Clicked(wxCommandEvent& evt);
+	void On5Clicked(wxCommandEvent& evt);
+	void On6Clicked(wxCommandEvent& evt);
+	void OnMultClicked(wxCommandEvent& evt);
+	void On1Clicked(wxCommandEvent& evt);
+	void On2Clicked(wxCommandEvent& evt);
+	void On3Clicked(wxCommandEvent& evt);
+	void OnMinusClicked(wxCommandEvent& evt);
+	void On0Clicked(wxCommandEvent& evt);
+	void OnDeciClicked(wxCommandEvent& evt);
+	void OnEqualClicked(wxCommandEvent& evt);
+	void OnPlusClicked(wxCommandEvent& evt);
+
+
+	wxDECLARE_EVENT_TABLE();
 };
 
